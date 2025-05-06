@@ -1,7 +1,9 @@
 // src/pages/Home.js
-import heroImage from '../assets/bed.jpg'; // Replace with your image path
+import heroImage from '../assets/bed.jpg'; 
+import { useNavigate } from 'react-router-dom';
 
 export default function Home() {
+    const navigate = useNavigate();
   return (
     <section className="hero-section bg-white text-center py-5">
       <div className="container">
