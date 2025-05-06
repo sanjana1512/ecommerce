@@ -16,7 +16,7 @@ export default function Home() {
               <li>✔ Affordable pricing</li>
               <li>✔ Fast & reliable delivery</li>
             </ul>
-            <button className="btn btn-warning btn-lg mt-3">Explore Our Collection</button>
+            <button className="btn btn-warning btn-lg mt-3" onClick={() => navigate('/shop')}>Explore Our Collection</button>
           </div>
           <div className="col-md-6">
             <img src={heroImage} alt="Featured Chair" className="img-fluid rounded" />
